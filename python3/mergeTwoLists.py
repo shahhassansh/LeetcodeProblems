@@ -18,8 +18,6 @@ class Solution:
             out = out.next
         if p1 != None:
             out.next = p1
-            p1 = p1.next
         if p2 != None:
             out.next = p2
-            p2=p2.next
         return head.next
