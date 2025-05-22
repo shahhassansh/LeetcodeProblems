@@ -1,12 +1,3 @@
-"""
-prev= '*'
-sm = 0
-3+22*2/2
-[3,44]
-
-
-"""
-
 class Solution:
     def calculate(self, s: str) -> int:
         prev = '+'
@@ -28,3 +19,12 @@ class Solution:
                 nm = 0
                 prev = s[i]
         return sum(st)
+
+
+
+
+
+
+
+
+        
