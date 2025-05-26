@@ -1,7 +1,5 @@
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
-        if len(s) <=2 :
-            return len(s)
         i = 0
         j = 1
         mx = 1
